@@ -1,62 +1,156 @@
 <!DOCTYPE html
-	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<title>HTML Template</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<style>
-		body {
-			width: 100% !important;
-			-webkit-text-size-adjust: 100%;
-			-ms-text-size-adjust: 100%;
-			margin: 0;
-			padding: 0;
-			line-height: 100%;
-		}
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>HTML Template</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body {
+      width: 100% !important;
+      -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+      margin: 0;
+      padding: 0;
+      line-height: 100%;
+    }
 
-		[style*="Arial"] {font-family: arial, sans-serif !important;}
+    [style*="Arial"] {
+      font-family: Arial, sans-serif !important;
+    }
 
-		img {
-			outline: none;
-			text-decoration: none;
-			border:none;
-			-ms-interpolation-mode: bicubic;
-			max-width: 100%!important;
-			margin: 0;
-			padding: 0;
-			display: block;
-		}
-    
-		table td {
-			border-collapse: collapse;
-		}
-    
-		table {
-			border-collapse: collapse;
-			mso-table-lspace: 0pt;
-			mso-table-rspace: 0pt;
-		}
+    img {
+      outline: none;
+      text-decoration: none;
+      border: none;
+      -ms-interpolation-mode: bicubic;
+      max-width: 100% !important;
+      margin: 0;
+      padding: 0;
+      display: block;
+    }
+
+    table td {
+      border-collapse: collapse;
+    }
+
+    table {
+      border-collapse: collapse;
+      mso-table-lspace: 0pt;
+      mso-table-rspace: 0pt;
+    }
 
     .center {
-     padding-top: 30px;
-     padding-bottom: 28px; 
+      padding-top: 30px;
+      padding-bottom: 28px;
     }
-	</style>
+
+    .hero-img-280 {
+      display: none;
+    }
+
+    .title-h1 {
+      padding-top: 32px;
+      margin: 0;
+      margin-bottom: 13px;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 24px;
+      color: #515151;
+    }
+
+    .descr {
+      margin: 0;
+      margin-bottom: 12px;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 24px;
+      color: #515151;
+    }
+
+    @media (max-width: 620px) {
+      .table-600 {
+        width: 280px !important;
+      }
+
+      .table-520 {
+        width: 244px !important;
+      }
+
+      .center-mobile {
+        padding-top: 17.24px;
+        padding-bottom: 17.24px;
+      }
+
+      .center-mobile img {
+        width: 114px !important;
+      }
+
+      .hero-img-600 {
+        display: none;
+      }
+
+      .hero-img-280 {
+        display: block;
+      }
+    }
+  </style>
+  <!-- [if (mso)|(mso 16)]>
+  <style type="text/css">
+  body, table, td, a, span, p, { font-family: Arial, sans-serif !important; } 
+  a {text-decoration: none;}
+  </style>
+  <![endif] -->
 </head>
 
 <body style="margin: 0; padding: 0;">
-	<div style="font-size:0px;font-color:#ffffff;opacity:0;visibility:hidden;width:0;height:0;display:none;">Тестовое письмо</div>
-	<table cellpadding="0" cellspacing="0" width="600px" bgcolor="#ffffff" align="center">
-		<tr>
+  <div style="font-size:0px;font-color:#ffffff;opacity:0;visibility:hidden;width:0;height:0;display:none;">Тестовое
+    письмо</div>
+  <table class="table-600" cellpadding="0" cellspacing="0" width="600px" bgcolor="#ffffff" align="center">
+    <tr>
       <td>
-        <table cellpadding="0" cellspacing="0" width="600px" bgcolor="#000000">
+        <table class="table-600" cellpadding="0" cellspacing="0" width="600px" bgcolor="#000000">
           <tr>
-            <td class="center" align="center">
-              <table cellpadding="0" cellspacing="0" width="520px">
+            <td class="center center-mobile" align="center">
+              <img src="https://i.yapx.ru/S2o40.png" alt="Художественная галерея 'Blanchard'">
+            </td>
+          </tr>
+          <tr>
+            <td class="hero-img-600">
+              <img src="https://i.yapx.ru/S2uNY.jpg" alt="Изображение болота">
+            </td>
+          </tr>
+          <tr>
+            <td class="hero-img-280">
+              <img src="https://i.yapx.ru/S2vZA.jpg" alt="Изображение болота">
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <table class="table-600" cellpadding="0" cellspacing="0" width="600px" bgcolor="#ffffff" align="center">
+          <tr>
+            <td align="center">
+              <table class="table-520" cellpadding="0" cellspacing="0" width="520px" align="center">
                 <tr>
-                  <td align="center">
-                    <img src="https://i.yapx.ru/S2o40.png" alt="Художественная галерея 'Blanchard'">
+                  <td>
+                    <h1 class="title-h1" style="font-family: Arial, sans-serif">Торжество импрессионизма</h1>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p class="descr" style="font-family: Arial, sans-serif">Опыт говорит нам, что семантический разбор внешних
+                      противодействий требует анализа новых принципов формирования материально-технической и кадровой базы.
+                    </p>
+                    <p class="descr" style="font-family: Arial, sans-serif">Задача организации, в&nbsp;особенности&nbsp;же
+                      внедрение современных методик, в&nbsp;своём классическом представлении, допускает внедрение
+                      глубокомысленных рассуждений. Есть над чем задуматься: элементы политического процесса преданы
+                      социально-демократической анафеме! Но&nbsp;интерактивные прототипы заблокированы в&nbsp;рамках своих
+                      собственных рациональных ограничений. Сторонники тоталитаризма в&nbsp;науке ограничены исключительно
+                      образом мышления.</p>
                   </td>
                 </tr>
               </table>
@@ -65,7 +159,7 @@
         </table>
       </td>
     </tr>
-	</table>
+  </table>
 </body>
 
 </html>
