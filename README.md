@@ -1,7 +1,7 @@
 # Веб-вёрстка «Продвинутый уровень» модуль «Вёрстка письма» #
 
 ### Ссылка на деплой ###
-https://banditos86.github.io/Blanchard-mail/
+https://sashadev86.github.io/Blanchard-mail/
 
 ---
 
